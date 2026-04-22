@@ -24,7 +24,7 @@ Both architectures are stabilized by a custom **Hybrid Cross-Entropy + Log-Cosh 
 
 ### Architecture Overview
 
-![QPGF Methodology](methodology_jay.png)
+![QPGF Methodology](methodology_qpgf.png)
 
 The QPGF framework classifies hyperspectral imagery by fusing graph-based spatial transformers with a variational quantum circuit.
 
@@ -38,7 +38,7 @@ The QPGF framework classifies hyperspectral imagery by fusing graph-based spatia
 
 ### Graph Transformer Block
 
-![Graph Transformer Block](arch_jay.png)
+![Graph Transformer Block](arch_graphtransformer.png)
 
 Each block applies masked multi-head graph attention (4 heads, d_head=48) followed by a GELU feed-forward MLP with gated residual connections and instance normalization.
 
